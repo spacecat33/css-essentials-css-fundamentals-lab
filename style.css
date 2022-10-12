@@ -1,12 +1,18 @@
+/* Make our #details section horizontal: The details section could go nicely as a footer to the page, 
+instead of a vertical list. To do this, make each of the <div>s float to the left. */
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
 }
+
+/*aligns it in the center*/
 h1 {
   text-align: center;
 }
 
+/* Center our image */
 img {
   display: block;
   float: center;
@@ -19,22 +25,34 @@ nav {
   text-align: center;
 }
 
+/* center all of our nav links as well. Give 
+all of the <a> tags within our navbar padding of 10px on their left and right sides. 
+In addition, change their background color */
+
 a:link, a:visited {
   text-align: center;
   padding: 10px 10px;
   background-color: grey;
 }
 
+/* shrink that font size down and make sure it is centered */
+
 figcaption {
   font-size: smaller;
   text-align: center;
 }
+
+/* give all our <p>s within #featured-property a hard width of 800px and center the 
+text in there. Be sure to keep a little vertical space around the <p>s. */
 
 #featured-property {
  width: 800px;
  text-align: center;
 }
 
+
+/* Let's clean up the <div>s at the bottom of the page. All of them should have the same background 
+color, centered text, and occupy 25% of the width of the bottom row (since we have 4 divs). */
 
 div {
   float: left;
