@@ -1,6 +1,3 @@
-/* Make our #details section horizontal: The details section could go nicely as a footer to the page, 
-instead of a vertical list. To do this, make each of the <div>s float to the left. */
-
 body {
   width: 100%;
   height: 100%;
@@ -50,6 +47,9 @@ text in there. Be sure to keep a little vertical space around the <p>s. */
  text-align: center;
 }
 
+
+/* Make our #details section horizontal: The details section could go nicely as a footer to the page, 
+instead of a vertical list. To do this, make each of the <div>s float to the left. */
 
 /* Let's clean up the <div>s at the bottom of the page. All of them should have the same background 
 color, centered text, and occupy 25% of the width of the bottom row (since we have 4 divs). */
