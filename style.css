@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 
-/*aligns it in the center*/
+/* aligns it in the center*/
 h1 {
   text-align: center;
 }
@@ -18,18 +18,24 @@ img {
   width: 100%;
 }
 
-nav {
-  text-align: center;
-}
+
 
 /* center all of our nav links as well. Give 
 all of the <a> tags within our navbar padding of 10px on their left and right sides. 
 In addition, change their background color */
 
+nav {
+  text-align: center;
+}
+
+nav a {
+  background-color: grey; 
+}
+
 a:link, a:visited {
   text-align: center;
   padding: 10px 10px;
-  background-color: grey;
+  /* background-color: grey; */
 }
 
 /* shrink that font size down and make sure it is centered */
@@ -43,7 +49,8 @@ figcaption {
 text in there. Be sure to keep a little vertical space around the <p>s. */
 
 #featured-property {
- width: 800px;
+ padding: 0 15%;
+  /* width: 800px; */
  text-align: center;
 }
 
@@ -59,4 +66,4 @@ div {
   background-color: red;
   text-align: center;
   width: 25%;
-}
+} 
